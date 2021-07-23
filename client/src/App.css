@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@media (max-width: 1000px){
+  .nav-wrapper {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .form-bg {
+    float: none !important;
+    width: 100% !important;
+  }
+  .content {
+    display: none !important;
+  }
+}
+body{
+  font-family: "Poppins", cursive;
+  font-size: 15px;
+  font-weight: 500 !important;
+}
+.auth-section {
+  display: none;
+  justify-content: center;
+  background-color: #fff;
+  position: relative;
+  top: -100vh;
+  width: inherit;
+  padding: 25vh 0;
+}
+.form-bg {
+  float: right;
+  width: 50%;
+  padding: 5vh;
+}
+i {
+  padding: 5px;
+  font-size: 17px;
+}
+.bi-x-square {
+  font-size: 30px;
+  float: right;
+  cursor: pointer;
+  color:  #fff;
+}
+.history-wrapper {
+  margin: 50px;
+  position: relative;
+  top: -80vh;
+  height: 80vh;
+  background-color: rgba(28, 46, 64, .9);
+  overflow-y: scroll;
+  display: none;
+  border-radius: 10px;
+}
+.nav-link {
+  font-size: 13px;
+  color: #000;
+  margin: 0 5px;
+  color: #45688A;
+}
+.nav-link:hover {
+  color: #f5322d;
+}
+.nav-menu {
+  display: inline-block !important;
+  position: relative;
+  left: 100px;
+}
+a {
+  display: inline-block !important;
+}
+a:visited {
+  color: grey;
+}
+.url {
+  margin: 5px 10px;
+}
+.record-wrapper {
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  margin: 1px;
+}
+.url-records{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  width: 55%;
+  font-size: 14px;
+}
+h1{
+  display: inline-block;
+  font-family: 'Lobster Two', cursive;
+  font-size: 40px !important;
+  padding: 0 !important;
+  margin: 0 10px !important;
+  color: #f5322d;
+}
+h2 {
+  margin: 10px;
+  font-family: 'Poppins', cursive;
+  width: 30%;
+}
+
+.p-home {
+  width: 30%;
+  font-family: 'Poppins';
+  font-size: 16px;
+}
+#home-img{
+  margin: 0;
+  display: inline-block;
+  width: 20%;
+}
+input {
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #ff7a59;
+  outline: none;
+  padding: 20px;
+  width: inherit;
+  margin-left: 20px !important;
+  background: transparent;
+}
+.btn{
+  border-radius: 5px !important;
+  padding: 10px !important;
+  margin: 10px;
+  display: inline !important;
+  font-size: 14px !important;
+  border: none !important;
+}
+.btn:active {
+  border: none !important;
+}
+.btn-light {
+  background-color: #ff7a59 !important;
+  color: #fff !important;
+}
+.btn-copy {
+  background-color: #E3E5E7 !important;
+}
+.btn-dark {
+  background-color: #45688A !important;
+}
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
