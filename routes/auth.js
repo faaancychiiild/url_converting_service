@@ -3,7 +3,7 @@ router = express.Router();
 
 const cors = require('cors');
 router.use(cors());
-const messagebird = require('messagebird')('vnJkHLEz16EmYg3UdA9vDSFrk');
+const messagebird = require('messagebird')(process.env.MESSAGE_KEY);
 //This messagebird key is private and will be removed soon.
 
 router.post('/sign_up', async (req, res) => {
