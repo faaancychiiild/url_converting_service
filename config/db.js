@@ -1,6 +1,10 @@
 const mongoose = require('mongoose');
+const path = require('path');
+const relative_path = path.join(__dirname, '../', '/.env');
+
+require('dotenv').config({path: relative_path});
 // const password = process.argv[2];
-const uri = `mongodb+srv://serene_fortress:1234@cluster0.mt9p4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+const uri = process.env.URI;
 const connect = () => {
 	mongoose.connect(uri, {useNewUrlParser: true, useUnifiedTopology: true})
 	.then(() => console.log("Mongo is connected"))
