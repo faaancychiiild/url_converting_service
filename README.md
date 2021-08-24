@@ -1,6 +1,7 @@
-<b> To clone this repository, run the following script in your terminal window: </b><br>
+<b> To start with, run the following script in your terminal window: </b><br>
 <ol>
 <li><code>git clone --recursive url-here </code><br></li>
+<li>Create a .env file in the root directory of the project and add <code>URI</code> variable with corresponding MongoDB URI. </li>
 <li> <code> npm install </code> separately in both <code> URL-shortening-service/client </code> and <code> URL-shortening-service </code> directories</li>
 <li> <code> npm start </code> separately in both <code> URL-shortening-service/client </code> and <code> URL-shortening-service </code> directories</li></li>
 </ol>
